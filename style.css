@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    overflow: hidden;
+}
+.logo{
+    height: 3rem;
+    width: 3rem;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.heading input{
+    height: 2rem;
+    width: 12rem;
+    border-radius: 08px;
+    border: none;
+    outline: none;
+}
+
+.heading button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 08px;
+    background-color: #0F67B1;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.heading a{
+    color: gray;
+    text-decoration: none;
+}
+
+.heading a:hover{
+    color: white;
+}
+
+.second{
+    color: gray;
+    text-align: center;
+}
+
+.second a{
+    color: skyblue;
+}
+
+.left{
+    padding: 25px;
+    margin: 10px;
+    margin-left: 45px;
+}
+
+.left button{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor:text;
+    background-color: #686D76;
+    color: #EEEEEE;
+    height: 2.5rem;
+    width: 19rem;
+}
+
+.left h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.left .btn{
+    width: 13rem ;
+    height: 3rem;
+    border-radius: 3px;
+    background-color:#0F67B1;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.float_img img{
+   float: right;
+   margin-right: 50px;
+   position: absolute;
+   top: 09rem;
+   left: 37rem;
+}
+
+.left a{
+    color: skyblue;
+}
